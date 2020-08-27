@@ -1,0 +1,23 @@
+{
+  "name": "@4lch4/pretty-jbh",
+  "version": "1.0.0",
+  "description": "A custom prettier config for use at JBH.",
+  "main": "index.js",
+  "scripts": {
+    "package": "tsc"
+  },
+  "author": "Devin W. Leaman",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/prettier": "^2.1.0",
+    "prettier": "^2.1.1"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "arrowParens": "avoid",
+    "semi": false,
+    "tabWidth": 2,
+    "useTabs": false,
+    "trailingComma": "none"
+  }
+}
